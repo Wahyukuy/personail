@@ -1,4 +1,23 @@
 /* === RESET & FONTS === */
+/* === Banner Header Tengah === */
+.banner {
+  background: #e74c3c;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-top: 5px solid #2980b9; /* garis biru atas */
+  border-bottom: 10px solid #c0392b; /* strip merah gelap bawah */
+}
+
+.banner h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 1.5em;
+}
+
 * {
   margin: 0;
   padding: 0;
