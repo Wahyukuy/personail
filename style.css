@@ -12,17 +12,11 @@ body {
   line-height: 1.6;
 }
 
+/* === HEADER DENGAN LOGO KIRI & KANAN === */
 header {
   background: #e74c3c;
   color: white;
-  padding: 60px 20px;
-  text-align: center;
-}
-/* === Logo Kiri dan Kanan di Header === */
-header {
-  background: #e74c3c;
-  color: white;
-  padding: 40px 20px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,19 +31,20 @@ header {
 }
 
 .judul {
-  text-align: center;
   flex: 1;
+  text-align: center;
 }
 
 .judul h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
 }
-header h1 {
-  font-size: 3em;
-  margin-bottom: 10px;
+
+.judul p {
+  font-size: 1.2em;
 }
 
+/* === NAVIGASI === */
 nav {
   background: #c0392b;
   display: flex;
@@ -69,6 +64,7 @@ nav a:hover {
   color: #ffd6d6;
 }
 
+/* === KONTEN UTAMA === */
 section {
   padding: 60px 20px;
   max-width: 1000px;
@@ -89,10 +85,15 @@ section h2 {
   border-radius: 5px;
 }
 
+/* === GALERI === */
 #galeri img {
   width: 100%;
   max-width: 300px;
   margin: 10px;
   border-radius: 10px;
   transition: transform 0.3s;
+}
+
+#galeri img:hover {
+  transform: scale(1.05);
 }
