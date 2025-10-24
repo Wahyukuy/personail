@@ -1,0 +1,105 @@
+/* === RESET & FONTS === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #e74c3c;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+nav {
+  background: #c0392b;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffd6d6;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #e74c3c;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.kegiatan-item {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #e74c3c;
+  border-radius: 5px;
+}
+
+#galeri img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+#galeri img:hover {
+  transform: scale(1.05);
+}
+
+#kontak p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #e74c3c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #galeri img {
+    width: 100%;
+  }
+}
