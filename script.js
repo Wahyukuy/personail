@@ -6,5 +6,3 @@ document.querySelectorAll('nav a').forEach(link => {
     target.scrollIntoView({ behavior: 'smooth' });
   });
 });
-document.getElementById("logoKiri").src = "logo-pmr.png";
-document.getElementById("logoKanan").src = "logo-sekolah.png";
