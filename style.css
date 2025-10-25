@@ -106,6 +106,22 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+.galeri-btn {
+  background-color: #d50000;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.galeri-btn:hover {
+  background-color: #b71c1c;
+}
 /* === RESPONSIVE === */
 @media (max-width: 600px) {
   header h1 {
