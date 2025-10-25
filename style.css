@@ -121,32 +121,3 @@ footer {
     width: 100%;
   }
 }
-
-/* === Galeri === */
-.galeri {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  padding: 60px 20px;
-  background: #f9f9f9;
-}
-
-.galeri-item {
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.galeri-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.galeri-item p {
-  padding: 15px;
-  font-weight: bold;
-  color: #e74c3c;
-}
