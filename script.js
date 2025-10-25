@@ -6,3 +6,6 @@ document.querySelectorAll('nav a').forEach(link => {
     target.scrollIntoView({ behavior: 'smooth' });
   });
 });
+document.getElementById("galeriButton").addEventListener("click", function () {
+  window.location.href = "halaman2.html";
+});
